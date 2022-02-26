@@ -181,13 +181,12 @@ class LoginPage extends BasePage {
   //Set commited usage: 1 Year
   async setUsage() {
     await this.dropDownValues(this.usage, this.usageVal);
-    await browser.pause(100);
   }
 
   //Click Add to Estimate
   async addToEstimate() {
     await this.estimateButton.waitForExist();
-    await browser.pause(100);
+    await browser.pause(200);
     await this.estimateButton.click();
   }
 
