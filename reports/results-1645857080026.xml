@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="My Login application" timestamp="2022-02-26T11:31:21" time="46.759" tests="22" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="My Login application"/>
+      <property name="capabilities" value="chrome.98_0_4758_82.windows"/>
+      <property name="file" value=".\test\specs\hardcoreTest.js"/>
+    </properties>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Open https cloud google com" time="7.174">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/url - {"url":"https://cloud.google.com/"}
+RESULT: {"url":"https://cloud.google.com/"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Enter in the search field Google Cloud Platform Pricing Calculator and click" time="0.591">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":".devsite-search-field"}
+RESULT: {"using":"css selector","value":".devsite-search-field"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/5cf148d3-0025-4e73-ab7d-4416b8d16c06/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/5cf148d3-0025-4e73-ab7d-4416b8d16c06/clear - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/5cf148d3-0025-4e73-ab7d-4416b8d16c06/value - {"text":"Google Cloud Platform Pricing Calculator"}
+RESULT: {"text":"Google Cloud Platform Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/actions - {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+RESULT: {"actions":[{"type":"key","id":"keyboard","actions":[{"type":"keyDown","value":""},{"type":"keyUp","value":""}]}]}
+COMMAND: DELETE /session/2e91267251e9a41b181ca5e174bbe2ef/actions - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="In the search results click Google Cloud Platform Pricing Calculator and go to the calculator page" time="10.116">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"link text","value":"Google Cloud Pricing Calculator"}
+RESULT: {"using":"link text","value":"Google Cloud Pricing Calculator"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/9d68da58-64f9-43b0-9dfd-6ddc3a081aa7/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Switch to frame" time="0.032">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/frame - {"id":0}
+RESULT: {"id":0}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/frame - {"id":0}
+RESULT: {"id":0}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Number of instances 4" time="0.197">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#input_78"}
+RESULT: {"using":"css selector","value":"#input_78"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#input_78"}
+RESULT: {"using":"css selector","value":"#input_78"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#input_78"}
+RESULT: {"using":"css selector","value":"#input_78"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/14424358-68e5-4946-a54c-22a11d3cff88/clear - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/14424358-68e5-4946-a54c-22a11d3cff88/value - {"text":"4"}
+RESULT: {"text":"4"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Set series for machine type" time="0.893">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-option[value=\"n1\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.series\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"n1\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.series\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.series\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.series\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/d287dace-367a-4906-bb39-01f4a678b3f2/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d287dace-367a-4906-bb39-01f4a678b3f2","ELEMENT":"d287dace-367a-4906-bb39-01f4a678b3f2"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d287dace-367a-4906-bb39-01f4a678b3f2","ELEMENT":"d287dace-367a-4906-bb39-01f4a678b3f2"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-option[value=\"n1\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"n1\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/af229f85-6767-4070-8567-6854be32dd60/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Instance type n1 standard 8 vCPUs 8 RAM 30 GB" time="0.915">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-option[value=\"CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.instance\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.instance\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.instance\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.instance\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/b74c0b46-657c-462e-91a8-10bb23a0f981/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b74c0b46-657c-462e-91a8-10bb23a0f981","ELEMENT":"b74c0b46-657c-462e-91a8-10bb23a0f981"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b74c0b46-657c-462e-91a8-10bb23a0f981","ELEMENT":"b74c0b46-657c-462e-91a8-10bb23a0f981"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-option[value=\"CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"CP-COMPUTEENGINE-VMIMAGE-N1-STANDARD-8\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/d999d5f7-bb9f-4000-87cb-042eef1ba9e0/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select Add GPU checkbox" time="0.218">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+RESULT: {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+RESULT: {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+RESULT: {"using":"css selector","value":"md-checkbox[ng-model=\"listingCtrl.computeServer.addGPUs\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/6abcb78f-9004-4509-acae-2733f85c9a9e/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select GPU type NVIDIA Tesla V100" time="0.656">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-option[value=\"NVIDIA_TESLA_V100\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuType\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"NVIDIA_TESLA_V100\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuType\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuType\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuType\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/5af3dcac-60f9-4011-a34e-792ebc5b1414/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"5af3dcac-60f9-4011-a34e-792ebc5b1414","ELEMENT":"5af3dcac-60f9-4011-a34e-792ebc5b1414"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"5af3dcac-60f9-4011-a34e-792ebc5b1414","ELEMENT":"5af3dcac-60f9-4011-a34e-792ebc5b1414"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-option[value=\"NVIDIA_TESLA_V100\"]"}
+RESULT: {"using":"css selector","value":"md-option[value=\"NVIDIA_TESLA_V100\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/0a7dc343-b6c1-4dea-b19c-8659e20a7b5a/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select Number of GPUs 1" time="0.739">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#select_option_465"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuCount\"]"}
+RESULT: {"using":"css selector","value":"#select_option_465"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuCount\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuCount\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.gpuCount\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/204b5517-c903-4727-9f87-51eb55af5175/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"204b5517-c903-4727-9f87-51eb55af5175","ELEMENT":"204b5517-c903-4727-9f87-51eb55af5175"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"204b5517-c903-4727-9f87-51eb55af5175","ELEMENT":"204b5517-c903-4727-9f87-51eb55af5175"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#select_option_465"}
+RESULT: {"using":"css selector","value":"#select_option_465"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/a9c9a3fb-073a-414d-9199-f407afaba79d/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select Local SSD 2x375 Gb" time="0.649">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#select_option_442"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.ssd\"]"}
+RESULT: {"using":"css selector","value":"#select_option_442"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.ssd\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.ssd\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.ssd\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/9d6a4c02-a843-4597-b4de-63627408cd3a/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9d6a4c02-a843-4597-b4de-63627408cd3a","ELEMENT":"9d6a4c02-a843-4597-b4de-63627408cd3a"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9d6a4c02-a843-4597-b4de-63627408cd3a","ELEMENT":"9d6a4c02-a843-4597-b4de-63627408cd3a"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#select_option_442"}
+RESULT: {"using":"css selector","value":"#select_option_442"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/1d388c74-2c3a-4b30-a588-010fa6e904b5/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select Datacenter location Frankfurt europe west3" time="1.03">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#select_option_239"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.location\"]"}
+RESULT: {"using":"css selector","value":"#select_option_239"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.location\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.location\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.location\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/04ae83c7-da63-49f8-82e6-8523bfa32d15/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"04ae83c7-da63-49f8-82e6-8523bfa32d15","ELEMENT":"04ae83c7-da63-49f8-82e6-8523bfa32d15"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"04ae83c7-da63-49f8-82e6-8523bfa32d15","ELEMENT":"04ae83c7-da63-49f8-82e6-8523bfa32d15"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#select_option_239"}
+RESULT: {"using":"css selector","value":"#select_option_239"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/937779ed-8c00-49de-b9be-0ad711237ba6/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select Commited usage 1 Year" time="1.178">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#select_option_116"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.cud\"]"}
+RESULT: {"using":"css selector","value":"#select_option_116"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.cud\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.cud\"]"}
+RESULT: {"using":"css selector","value":"md-select[ng-model=\"listingCtrl.computeServer.cud\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/b4301b9d-1b1c-48d0-9315-f77351429154/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b4301b9d-1b1c-48d0-9315-f77351429154","ELEMENT":"b4301b9d-1b1c-48d0-9315-f77351429154"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+RESULT: {"script":"return (function (elem, options) {\n        elem.scrollIntoView(options);\n    }).apply(null, arguments)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b4301b9d-1b1c-48d0-9315-f77351429154","ELEMENT":"b4301b9d-1b1c-48d0-9315-f77351429154"},{"behavior":"smooth","block":"center","inline":"nearest"}]}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#select_option_116"}
+RESULT: {"using":"css selector","value":"#select_option_116"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/f855c4d9-8f2d-48ba-8e8b-1c3bd6ce410e/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Click Add to Estimate" time="0.998">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+RESULT: {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+RESULT: {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+RESULT: {"using":"css selector","value":"form[name=\"ComputeEngineForm\"] > div > button"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/c9c11248-e7a3-4403-a01e-fbbedce2879c/click - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+RESULT: {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+RESULT: {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+RESULT: {"using":"css selector","value":"h2[class=\"md-title\"] > b[class=\"ng-binding\"]"}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/element/c5a82630-a9e9-448e-8193-2bebf9211fa9/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Select EMAIL ESTIMATE" time="0.223">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#email_quote"}
+RESULT: {"using":"css selector","value":"#email_quote"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#email_quote"}
+RESULT: {"using":"css selector","value":"#email_quote"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#email_quote"}
+RESULT: {"using":"css selector","value":"#email_quote"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/49095bfe-4f44-4432-aa0c-fb6bc9bd1c3d/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="In a new tab open https 10minutemail com" time="0.125">
+      <system-out><![CDATA[
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/execute/sync - {"script":"return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || '', windowFeatures || '');\n}).apply(null, arguments)","args":["https://www.minuteinbox.com/","",""]}
+RESULT: {"script":"return (function newWindow(url, windowName, windowFeatures) {\n    window.open(url, windowName || '', windowFeatures || '');\n}).apply(null, arguments)","args":["https://www.minuteinbox.com/","",""]}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/window - {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+RESULT: {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/window - {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+RESULT: {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Get generated email address" time="6.367">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#email"}
+RESULT: {"using":"css selector","value":"#email"}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/element/1e4b3d12-a1a2-44a7-b8c7-9338723101d4/text - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Back to Home url" time="0.069">
+      <system-out><![CDATA[
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/window - {"handle":"CDwindow-1A9E2C5FE0A25D3F923D81C280A25801"}
+RESULT: {"handle":"CDwindow-1A9E2C5FE0A25D3F923D81C280A25801"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Place email address to the field" time="0.413">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/frame - {"id":0}
+RESULT: {"id":0}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/frame - {"id":0}
+RESULT: {"id":0}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+RESULT: {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+RESULT: {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+RESULT: {"using":"css selector","value":"input[ng-model=\"emailQuote.user.email\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/10f3c1f3-0fd9-420b-af91-942c7a44ae7d/clear - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/10f3c1f3-0fd9-420b-af91-942c7a44ae7d/value - {"text":"attikus.ganon@fundingair.com"}
+RESULT: {"text":"attikus.ganon@fundingair.com"}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Press SEND EMAIL" time="0.373">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+RESULT: {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+RESULT: {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+RESULT: {"using":"css selector","value":"button[ng-click=\"emailQuote.emailQuote(true); emailQuote.$mdDialog.hide()\"]"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/26768b6a-9332-452c-bc62-310d9b017981/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Go to mail page and click new arrived mail from cloud google com" time="13.568">
+      <system-out><![CDATA[
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/window/handles - {}
+RESULT: {}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/window - {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+RESULT: {"handle":"CDwindow-D0EE96AEDB4F534BA1E6117E61593820"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"#schranka"}
+RESULT: {"using":"css selector","value":"#schranka"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"#schranka"}
+RESULT: {"using":"css selector","value":"#schranka"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/d8e76095-8d03-49aa-94ef-bd65ab8cfe57/elements - {"using":"css selector","value":"tr"}
+RESULT: {"using":"css selector","value":"tr"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element/c4fb5913-e6c0-4ee3-b603-5d16fed6a6fc/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.98_0_4758_82.windows.My_Login_application" name="Check that the Total Estimated Monthly Cost in the letter matches what is displayed in the calculator" time="0.223">
+      <system-out><![CDATA[
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/frame - {"id":1}
+RESULT: {"id":1}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+RESULT: {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/elements - {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+RESULT: {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+COMMAND: POST /session/2e91267251e9a41b181ca5e174bbe2ef/element - {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+RESULT: {"using":"css selector","value":"tr[id=\"mobilepadding\"] > td > h2"}
+COMMAND: GET /session/2e91267251e9a41b181ca5e174bbe2ef/element/18385d44-d82b-4076-aba5-0026347cdf89/text - {}
+RESULT: {}
+COMMAND: DELETE /session/2e91267251e9a41b181ca5e174bbe2ef - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
