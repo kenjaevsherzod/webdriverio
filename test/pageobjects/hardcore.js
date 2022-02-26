@@ -185,6 +185,7 @@ class LoginPage extends BasePage {
 
   //Click Add to Estimate
   async addToEstimate() {
+    await browser.pause(200);
     await this.estimateButton.waitForExist();
     await browser.pause(200);
     await this.estimateButton.click();
