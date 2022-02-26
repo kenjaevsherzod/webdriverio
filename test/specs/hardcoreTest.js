@@ -95,9 +95,4 @@ describe("My Login application", () => {
     await browser.pause(10000);
     await LoginPage.clickEmailResult();
   });
-
-//   it("Check that the Total Estimated Monthly Cost in the letter matches what is displayed in the calculator", async () => {
-//     let costFromEmail = await LoginPage.getEmailCost();
-//     costFromEmail.should.equal(cost);
-//   });
 });
