@@ -23,7 +23,7 @@ module.exports = class BasePage {
     // Wait untill it finds value of needed from dropdown and click it.
     let val = await value;
     await val.waitForExist();
-    await browser.pause(400);
+    await browser.pause(300);
     await val.click();
   }
 };
